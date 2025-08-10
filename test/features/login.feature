@@ -6,7 +6,7 @@ Feature: Login
     Validate successful login by passing the hardcoded test data through step definitions
     I replaced my credentials with XXXX, kindly give valid credential to execute the testcase
     Given As a user I launch the Zenclass webportal
-    When I login with username "indulax.88@gmail.com" and password "Kiss@2567"
+    When I login with username "username" and password "password"
     Then Logged in successfully to the "Download App" page
     And I should be able to logout successfully and "Sign in" is available again
 
